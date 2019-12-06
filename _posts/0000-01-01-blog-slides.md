@@ -1,10 +1,10 @@
 ---
-title: Create blog posts and slides from the same Markdown file
+title: Integrate blog posts and slides
 sidebar:
   nav: modules
 aside:
   toc: true
-slides: default
+slides: black
 ---
 
 If you often write blog posts on topics that you also give presentations on,
@@ -28,15 +28,15 @@ provide a solution to that problem. It combines [Jekyll](https://jekyllrb.com/)
 manage blog posts, with [reveal.js](https://revealjs.com/#/) for slides.
 This has a number of advantages:
 
-{% slide %}
-{% slideonly %}
-**Problem:** Creating blog post and slides for the same content can produce a lot
+{% slide slideonly%}
+Creating blog post and slides for the same content can produce a lot
 duplicate information that is hard to keep in sync.
 
 **Solution:** Create a single Markdown file that contains both.
+{% endslide %}
 
+{% slide %}
 **Advantages:**
-{% endslideonly %}
 
 * Less duplication because some content can be reused directly.
 * When different versions are required they are adjacent, simplifying the task
