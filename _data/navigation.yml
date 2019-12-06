@@ -19,6 +19,6 @@ modules:
   - title: Qual vs. Quant
     children:
       - title: Notes
-        url: /0000/01/01/quant_vs_qual.html
+        url: /0000/01/01/blog-slides.html
       - title: Slides
-        url: /slides/0000-01-01-quant_vs_qual.html
+        url: /slides/0000-01-01-blog-slides.html
