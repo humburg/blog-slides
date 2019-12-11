@@ -16,7 +16,7 @@ header:
       ko-KR   : *KO
     url: /about.html
 modules:
-  - title: Qual vs. Quant
+  - title: Blog Slides
     children:
       - title: Notes
         url: /0000/01/01/blog-slides.html
