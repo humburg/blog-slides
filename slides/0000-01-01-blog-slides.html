@@ -1,0 +1,94 @@
+
+<head>
+  <meta charset="utf-8">
+  <title>Integrate blog posts and slides - Integating blog posts and slide decks</title>
+  <meta name="author" content="Peter Humburg">
+
+  
+  <meta name="description" content="If you often write blog posts on topics that you also give presentations on,
+whether they are seminars, lectures, or workshops, it is useful to be ...">
+  
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <link rel="stylesheet" href="/blog-slides/assets/slides/css/reveal.css">
+  <link rel="stylesheet" href="/blog-slides/assets/slides/css/theme/black.css">
+
+  
+  <link rel="canonical" href="/blog-slides/slides/0000-01-01-blog-slides.html">
+  <link href="/blog-slides/favicon.ico" rel="icon">
+</head>
+<body>
+  <div class="reveal">
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+		  <section data-markdown="">
+<textarea data-template="">
+
+<!-- .slide: class="title-slide center" -->
+
+# Integrate blog posts and slides
+<!-- .element: class="main-title" -->
+
+ Peter Humburg  <!-- .element: class="author" -->
+
+</textarea>
+</section>
+<section data-markdown="">
+<textarea data-template="">
+
+Creating blog post and slides for the same content can produce a lot
+duplicate information that is hard to keep in sync.
+
+**Solution:** Create a single Markdown file that contains both.
+</textarea>
+</section>
+<section data-markdown="">
+<textarea data-template="">
+
+**Advantages:**
+
+* Less duplication because some content can be reused directly.
+* When different versions are required they are adjacent, simplifying the task
+  of keeping them in sync.
+
+</textarea>
+</section>
+
+		</div>
+	</div>
+
+	<script src="/blog-slides/assets/slides/js/reveal.js"></script>
+
+	<script>
+
+		// Full list of configuration options available here:
+		// https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+		  history: true,
+      center: false,
+      dependencies: [
+        // Interpret Markdown in <section> elements
+        { src: '/blog-slides/assets/slides/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: '/blog-slides/assets/slides/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+
+        // Syntax highlight for <code> elements
+        { src: '/blog-slides/assets/slides/plugin/highlight/highlight.js', async: true },
+
+        // Zoom in and out with Alt+click
+        { src: '/blog-slides/assets/slides/plugin/zoom-js/zoom.js', async: true },
+
+        // Speaker notes
+        { src: '/blog-slides/assets/slides/plugin/notes/notes.js', async: true },
+
+        // MathJax
+        { src: '/blog-slides/assets/slides/plugin/math/math.js', async: true }
+      ]
+		});
+
+	</script>
+
+
+</body>
+</html>

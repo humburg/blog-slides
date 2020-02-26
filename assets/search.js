@@ -1,0 +1,1 @@
+window.TEXT_SEARCH_DATA={'posts':[{'title':"Integrate blog posts and slides",'url':"/blog-slides/0000/01/01/blog-slides.html"}],'slides':[{'title':"Integrate blog posts and slides",'url':"/blog-slides/slides/0000-01-01-blog-slides.html"},{'title':"Integrate blog posts and slides",'url':"/blog-slides/_slides/0000-01-01-blog-slides.html"}]};

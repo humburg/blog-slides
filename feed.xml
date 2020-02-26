@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://humburg.github.io/blog-slides/feed.xml" rel="self" type="application/atom+xml" /><link href="https://humburg.github.io/blog-slides/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-02-27T08:51:42+11:00</updated><id>https://humburg.github.io/blog-slides/feed.xml</id><title type="html">Integating blog posts and slide decks</title><subtitle>A framework to support the creation blog posts and associated slide decks.
+</subtitle><author><name>Peter Humburg</name><email>peter.humburg@gmail.com</email></author><entry><title type="html">Integrate blog posts and slides</title><link href="https://humburg.github.io/blog-slides/0000/01/01/blog-slides.html" rel="alternate" type="text/html" title="Integrate blog posts and slides" /><published>0000-01-01T00:01:44+10:04</published><updated>0000-01-01T00:01:44+10:04</updated><id>https://humburg.github.io/blog-slides/0000/01/01/blog-slides</id><content type="html" xml:base="https://humburg.github.io/blog-slides/0000/01/01/blog-slides.html">&lt;p&gt;If you often write blog posts on topics that you also give presentations on,
+whether they are seminars, lectures, or workshops, it is useful to be able to
+keep all information in one place, duplicating as little as possible. BlogSlides
+helps you to do that.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;When I prepare a workshop, I often find that as well as slides I would like to
+have a longer, blog post style, writeup of the content. This is partly because
+writing everything down like that can help me clarify my thoughts and improve
+the flow of the narrative, but also because it makes the content more accessible
+to anyone who may want to study the subject by themselves.&lt;/p&gt;
+
+&lt;p&gt;The problem with this is that it leads to a lot of duplicated effort and makes
+it difficult to work on both versions in parallel. BlogSlides is an attempt to
+provide a solution to that problem. It combines &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;
+(using the &lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/&quot;&gt;TeXt&lt;/a&gt; theme), to create and
+manage blog posts, with &lt;a href=&quot;https://revealjs.com/#/&quot;&gt;reveal.js&lt;/a&gt; for slides.
+This has a number of advantages:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Advantages:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Less duplication because some content can be reused directly.&lt;/li&gt;
+  &lt;li&gt;When different versions are required they are adjacent, simplifying the task
+of keeping them in sync.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Peter Humburg</name><email>peter.humburg@gmail.com</email></author><summary type="html">If you often write blog posts on topics that you also give presentations on, whether they are seminars, lectures, or workshops, it is useful to be able to keep all information in one place, duplicating as little as possible. BlogSlides helps you to do that.</summary></entry></feed>
